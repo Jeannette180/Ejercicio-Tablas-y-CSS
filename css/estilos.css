@@ -1,0 +1,88 @@
+/*normalizar los estilos: es eliminar los estilos que el navegador aplica */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(212, 210, 207);
+}
+.contenedor{
+    background-color: rgb(238, 230, 230);
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td{
+    border: 3px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    background-color: rgb(213, 188, 221);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table, th{
+    border: 5px solid rgb(255, 255, 255)
+}
+th{
+    background-color: rgb(71, 8, 98);
+    color: white;
+}
+
+header{
+    background-color: rgb(65, 4, 68);
+    padding: 15px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+h2{
+    color: rgb(201, 179, 250);
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(82, 74, 74);
+}
+.data{
+    background-color: rgb(241, 233, 244);
+}
+.empresa{
+    border: 8px solid rgb(88, 12, 113);
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 350px;
+}
+
+.texto{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.derechos{
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+footer{
+    background-color: rgb(60, 1, 63);
+}
